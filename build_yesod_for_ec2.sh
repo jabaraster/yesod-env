@@ -6,6 +6,7 @@
 # CentOS上でも構築に成功したが、そのコマンドは別の機会に.
 # 
 sudo yum -y update
+sudo yum -y install wget
 sudo yum -y install gcc gmp gmp-devel freeglut freeglut-devel zlib-devel
 cd /usr/local/src/
 sudo wget http://www.haskell.org/ghc/dist/7.6.3/ghc-7.6.3-x86_64-unknown-linux.tar.bz2
